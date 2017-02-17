@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>课程中心</title>
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<script src="js/setHomeSetFav.js" type="text/javascript" charset="gb2312"></script>
+</head>
+<body>
+	<div class="top">
+		<div class="top_content">
+			<ul>
+				<li>
+				   <a href="#">联系我们</a>
+				</li>
+				<li>
+				   <a href="" onclick="AddFavorite(window.location,document.title)">加入收藏</a></li>
+				<li>
+				   <a href="#" onclick="SetHome(window.location)">设为首页</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- top结束 -->
+	<div class="wrap">
+		<div class="logo">
+			<div class="logo_left">
+				<img src="images/logo.jpg" alt="慕课网">
+			</div>
+			<div class="logo_right">
+				<img src="images/tel.jpg" alt="服务热线">24小时服务热线：<span>123-456-7890</span>
+			</div>
+		</div><!-- logo结束 -->
+		<div class="nav">
+		    <div class="nav_mid">
+		    	<div class="nav_mid_left">
+		    		<ul>
+		    			<li>
+		    				<a href="index.html">首页</a>
+		    			</li>
+		    			<li>
+		    				<a href="error.html">关于慕课</a>
+		    			</li>
+		    			<li>
+		    				<a href="list.html">新闻动态</a>
+		    			</li>
+		    			<li>
+		    				<a href="course.html" class="active">课程中心</a>
+		    			</li>
+		    			<li>
+		    				<a href="error.html">在线课程</a>
+		    			</li>
+		    			<li>
+		    				<a href="zp.html">人才招聘</a>
+		    			</li>
+		    		</ul>
+		    	</div>
+		    	<div class="nav_mid_right">
+		    		<form action="" method="post">
+		    			<input type="text" class="search_text" />
+		    		</form>
+		    	</div>
+		    </div>
+		</div><!-- nav结束 -->
+		<div class="ad" id="picBox">
+		    <img src="images/dm.jpg" alt="" style="width: 1000px; height: 310px;" />
+		</div><!-- ad结束 -->
+		<div class="list_main">
+			<div class="news_type">
+				<h2>课程中心</h2>
+				<div class="news_type_content">
+					<ul>
+						<li><a href="#">HTML5与CSS3</a></li>
+						<li><a href="#">javascript</a></li>
+						<li><a href="#">jQuery</a></li>
+						<li><a href="#">LESS、SASS</a></li>
+						<li><a href="#">Bootstrap</a></li>
+						<li><a href="#">SEO</a></li>
+						<li><a href="#">Mobile Web</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="list_box">
+				<h2>课程中心</h2>
+				<div class="news_list">
+					<ul>
+						<li><span>2014-06-01</span><a href="news.html">前端工程师的开发者路——初级篇</a></li>
+						<li><span>2014-03-05</span><a href="news.html">前端工程师的开发者路——进阶篇</a></li>
+						<li><span>2014-05-30</span><a href="news.html">前端工程师的开发者路——大师篇</a></li>
+						<li><span>2014-05-28</span><a href="news.html">前段开发者的必备素养</a></li>
+						<li><span>2014-03-05</span><a href="news.html">HTML5的时代我们该如何适应并跟进——致前端</a></li>
+						<li><span>2014-05-30</span><a href="news.html">web工程师的利器——sublime Text Atom</a></li>
+						<li><span>2014-05-28</span><a href="news.html">框架我们该如何去使用，才能给我们带来最大的便利。</a></li><!-- span放在a后面在IE不兼容 放前面就可以了 -->
+						<li><span>2014-06-01</span><a href="news.html">CSS的预处理语言——less、sass、stylus</a></li>
+						<li><span>2014-03-05</span><a href="news.html">手机移动端的网页及其优化</a></li>
+						<li><span>2014-05-30</span><a href="news.html">前端工程师的前景在哪....</a></li>
+						<li><span>2014-06-01</span><a href="news.html">目前最流行的十大框架</a></li>
+					</ul>
+				</div> <!-- news_list结束 -->
+				<div class="page">
+					<a href="#">首页</a>
+					<a href="#">&lt;</a>
+					<a href="#">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">...</a>
+					<a href="#">6</a>
+					<a href="#">7</a>
+					<a href="#">&gt;</a>
+					<a href="#">末页</a>
+				</div>
+			</div>
+		</div>
+	</div><!-- wrap结束 -->
+	<div class="copyright">
+		<div class="copyright_content">
+			<ul>
+				<li>
+				   <a href="#">关于</a>
+                   <ul>
+                   	 <li><a href="#">品牌故事</a></li>
+                   	 <li><a href="#">联系我们</a></li>
+                   	 <li><a href="#">加入我们</a></li>
+                   	 <li><a href="#">版权声明</a></li>
+                   </ul>
+				</li>
+				<li>
+				  <a href="#">课程</a>
+				  <ul>
+                   	 <li><a href="#">PHP开发</a></li>
+                   	 <li><a href="#">前端开发</a></li>
+                   	 <li><a href="#">JAVA开发</a></li>
+                   	 <li><a href="#">Android开发</a></li>
+                   </ul>
+				</li>
+				<li>
+				  <a href="#">留言</a>
+				  <ul>
+                   	 <li><a href="#">新浪微博</a></li>
+                   	 <li><a href="#">腾讯微博</a></li>
+                   	 <li><a href="#">企业微信</a></li>
+                   	 <li><a href="#">QQ空间</a></li>
+                   </ul>
+				</li>
+				<li>
+				  <a href="#">关注</a>
+				  <ul>
+                   	 <li><a href="#">意见反馈</a></li>
+                   	 <li><a href="#">问题留言</a></li>
+                   	 <li><a href="#">媒体联络</a></li>
+                   	 <li><a href="#">在线客服</a></li>
+                   </ul>
+				</li>
+				<li>
+				  <a href="#"><img src="images/weixin.png" alt="微信"/>微信关注</a>
+				  <ul>
+				  	<li><img src="images/qrcode.jpg" alt=""></li>
+				  </ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
